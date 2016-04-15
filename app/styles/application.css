@@ -1,0 +1,24 @@
+body {
+  background: #f2f2f2;
+}
+
+.l-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.processing {
+    opacity: 0.3;
+    background: url("../images/ajax-loader.gif") no-repeat 50% 5%;
+}
+
+.processing #book_cover {
+    cursor: default;
+}
+
+#book_cover {
+    cursor: pointer;
+}
